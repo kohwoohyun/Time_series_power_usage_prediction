@@ -1,0 +1,9 @@
+실험번호,실험명,SMAPE,개선폭,비고
+0,대회_Baseline_XGBoost,24.014,0.0,"대회 제공 Baseline, Feature Engineering 없음"
+1,FE_XGBoost,8.4242,15.5898,Feature Engineering 추가 효과
+2,LightGBM_전체,9.3881,-0.9638999999999988,XGBoost보다 성능 낮음
+3,유형별_XGBoost,7.2579,2.1301999999999994,유형별 모델 분리 효과 확인
+4,유형별_XGBoost_튜닝,6.889890997755242,0.3680090022447579,"최적파라미터: {'max_depth': 8, 'min_child_weight': 1, 'subsample': 0.9, 'colsample_bytree': 0.9}"
+5,건물별_XGBoost_튜닝,7.02994372280025,-0.1400527250450078,100개 건물 각각 개별 모델 학습
+7,Ensemble,6.7324023588954685,0.1574886388597738,유형별:0.6 + 건물별:0.4 가중평균
+8,LSTM_건물별,9.062772763438371,-2.3303704045429026,"SEQ_LEN=24, hidden=64, layers=2, epochs=30"
