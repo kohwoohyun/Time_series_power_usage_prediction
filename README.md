@@ -36,6 +36,7 @@
 
 ### 평가 지표
 **SMAPE (Symmetric Mean Absolute Percentage Error)**
+
 $$SMAPE = \frac{1}{n}\sum_{i=1}^{n}\frac{2|y_i - \hat{y}_i|}{|y_i| + |\hat{y}_i|} \times 100$$
 - 값이 낮을수록 좋음
 - 대회 1등 기준: 4.9x
@@ -44,33 +45,6 @@ $$SMAPE = \frac{1}{n}\sum_{i=1}^{n}\frac{2|y_i - \hat{y}_i|}{|y_i| + |\hat{y}_i|
 ### 개발 환경
 - Python 3.10
 - Google Colab (CPU) & (A100)
-- Google Drive (데이터 저장)
-
----
-
-## 프로젝트 개요
-
-### 배경
-안정적이고 효율적인 에너지 공급을 위해 전력 사용량 예측의 중요성이
-갈수록 커지고 있습니다. 본 프로젝트는 건물의 전력사용량 데이터와
-기상 데이터를 활용하여 전력 사용량을 예측하는 AI 모델을 개발합니다.
-
-### 목표
-- 건물의 전력사용량 예측 AI 모델 개발
-- 단계별 실험을 통한 성능 개선 과정 기록
-- 트리 기반 모델과 딥러닝 모델 비교 분석
-
-### 평가 지표
-**SMAPE (Symmetric Mean Absolute Percentage Error)**
-
-$$SMAPE = \frac{1}{n}\sum_{i=1}^{n}\frac{2|y_i - \hat{y}_i|}{|y_i| + |\hat{y}_i|} \times 100$$
-- 값이 낮을수록 좋음
-- 대회 1등 기준: 4.9x
-- 대회 100등 기준: 6.5x
-
-### 개발 환경
-- Python 3.10
-- Google Colab (CPU)
 - Google Drive (데이터 저장)
 
 ---
