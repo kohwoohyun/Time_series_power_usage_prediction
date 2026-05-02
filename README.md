@@ -38,9 +38,10 @@
 **SMAPE (Symmetric Mean Absolute Percentage Error)**
 
 $$SMAPE = \frac{1}{n}\sum_{i=1}^{n}\frac{2|y_i - \hat{y}_i|}{|y_i| + |\hat{y}_i|} \times 100$$
+
+- 예측값과 실제값의 상대 오차를 측정하는 지표
 - 값이 낮을수록 좋음
-- 대회 1등 기준: 4.9x
-- 대회 100등 기준: 6.5x
+
 
 ### 개발 환경
 - Python 3.10
