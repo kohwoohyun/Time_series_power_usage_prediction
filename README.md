@@ -113,18 +113,19 @@ $$SMAPE = \frac{1}{n}\sum_{i=1}^{n}\frac{2|y_i - \hat{y}_i|}{|y_i| + |\hat{y}_i|
 ```
 power_forecast/
 │
-├── data/
-│   ├── train.csv
-│   ├── test.csv
-│   ├── building_info.csv
-│   ├── train_fe.csv               # Feature Engineering 완료 데이터
-│   └── experiment_results.csv     # 실험 결과 누적 기록
+├── data/                          # 데이터 파일 (깃허브 미포함)
+│   ├── train.csv                  # DACON에서 다운로드
+│   ├── building_info.csv          # DACON에서 다운로드
+│   └── train_fe.csv               # step2 실행 후 생성됨
 │
-├── images/
+├── images/                        # 실제값 vs 예측값 비교 그래프
 │   ├── building_35_IDC(전화국).png
 │   ├── building_41_상용.png
 │   ├── building_55_학교.png
 │   └── building_7_건물기타.png
+│
+├── results/                       # 실험 결과 기록
+│   └── experiment_results.csv     # 각 실험별 SMAPE 및 개선폭 누적 기록
 │
 ├── notebooks/
 │   ├── step1_eda.ipynb
@@ -138,6 +139,18 @@ power_forecast/
 │
 └── README.md
 ```
+
+### experiment_results.csv 설명
+
+각 실험마다 결과를 누적해서 기록한 파일입니다.
+
+| 컬럼 | 설명 |
+|------|------|
+| 실험번호 | 0(Baseline)부터 순서대로 |
+| 실험명 | 실험 내용 요약 |
+| SMAPE | 검증 데이터 기준 SMAPE |
+| 개선폭 | 이전 실험 대비 SMAPE 변화량 (음수면 개선) |
+| 비고 | 사용한 파라미터, 전략 등 상세 내용 |
 
 ---
 
