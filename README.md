@@ -486,6 +486,8 @@ STEP 6에서 발견한 패턴 변화(Regime Change)가
 ```
 입력: 과거 24시간의 feature 시퀀스
       (SEQ_LEN=24, feature 수=26)
+        트리 모델과 달리 hour_sin, hour_cos 제외
+        LSTM이 시간 순서를 직접 학습하므로 불필요
         ↓
 LSTM Layer (hidden_size=64, num_layers=2)
         ↓
