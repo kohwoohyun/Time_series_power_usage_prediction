@@ -11,6 +11,8 @@
 안정적이고 효율적인 에너지 공급을 위해 전력 사용량 예측의 중요성이
 갈수록 커지고 있습니다. 본 프로젝트는 건물의 전력사용량 데이터와
 기상 데이터를 활용하여 전력 사용량을 예측하는 AI 모델을 개발합니다.
+자세한 내용은 [DACON 2025 전력사용량 예측 AI 경진대회](https://dacon.io/competitions/official/236531/overview/description)
+을 통해 확인할 수 있습니다.
 
 ### 목표
 - 건물의 전력사용량 예측 AI 모델 개발
@@ -36,7 +38,7 @@ $$SMAPE = \frac{1}{n}\sum_{i=1}^{n}\frac{2|y_i - \hat{y}_i|}{|y_i| + |\hat{y}_i|
 ## 데이터 설명
 
 > 데이터는 용량 및 저작권 문제로 저장소에 포함되지 않습니다.  
-> 📎 [DACON 2025 전력사용량 예측 AI 경진대회](https://dacon.io/competitions/official/236531/overview/description)을 통해 확인할 수 있습니다.
+> [DACON 2025 전력사용량 예측 AI 경진대회](https://dacon.io/competitions/official/236531/overview/description)을 통해 확인할 수 있습니다.
 
 ### 사용한 데이터
 
