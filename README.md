@@ -1,24 +1,7 @@
 # AI를 활용한 전력사용량 예측 (DACON)
 
-> 본 프로젝트는 종료된 경진대회를 연구 목적으로 재현한 포트폴리오입니다.  
-> 경진대회 제출이 아닌 단계별 실험을 통한 성능 개선 과정을 기록했습니다.
-
----
-
-## 목차
-1. [프로젝트 개요](#프로젝트-개요)
-2. [데이터 설명](#데이터-설명)
-3. [프로젝트 구조](#프로젝트-구조)
-4. [STEP 1. EDA](#step-1-eda)
-5. [STEP 2. Feature Engineering](#step-2-feature-engineering)
-6. [STEP 3. Modeling](#step-3-modeling)
-7. [STEP 4. Hyperparameter Tuning](#step-4-hyperparameter-tuning)
-8. [STEP 5. Building-level Modeling](#step-5-building-level-modeling)
-9. [STEP 6. Outlier Analysis](#step-6-outlier-analysis)
-10. [STEP 7. Ensemble](#step-7-ensemble)
-11. [STEP 8. LSTM](#step-8-lstm)
-12. [실험 결과 요약](#실험-결과-요약)
-13. [결론 및 한계점](#결론-및-한계점)
+본 프로젝트는 종료된 경진대회를 연구 목적으로 재현한 포트폴리오입니다.  
+경진대회 제출이 아닌 단계별 실험을 통한 성능 개선 과정을 기록했습니다.
 
 ---
 
