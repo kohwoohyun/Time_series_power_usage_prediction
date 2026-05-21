@@ -283,8 +283,8 @@ $$CDH = \max(T - 26, 0)$$
 |------|-----------|-------|--------|
 | Baseline | 대회 제공 XGBoost | 24.01 | - |
 | 실험 1 | Feature Engineering 추가 (XGBoost) | 8.42 | -15.59 |
-| 실험 2 | LightGBM으로 교체 | 9.39 | +1.13 |
-| 실험 3 | 건물 유형별 모델 분리 (XGBoost) | 7.26 | -0.96 |
+| 실험 2 | LightGBM으로 교체 | 9.39 | +0.97 |
+| 실험 3 | 건물 유형별 모델 분리 (XGBoost) | 7.26 | -1.16 |
 
 ### 주요 발견
 
@@ -535,12 +535,12 @@ Fully Connected Layer
 |------|------|-------|--------|
 | Baseline | 대회 제공 XGBoost | 24.01 | - |
 | 실험 1 | Feature Engineering + XGBoost | 8.42 | -15.59 |
-| 실험 2 | LightGBM 교체 | 9.39 | -0.96 |
-| 실험 3 | 건물 유형별 모델 분리 | 7.26 | +1.13 |
-| 실험 4 | Hyperparameter Tuning | 6.89 | +0.37 |
-| 실험 5 | Building-level Modeling | 7.03 | -0.14 |
+| 실험 2 | LightGBM 교체 | 9.39 | +0.97 |
+| 실험 3 | 건물 유형별 모델 분리 | 7.26 | -1.16 |
+| 실험 4 | Hyperparameter Tuning | 6.89 | -0.37 |
+| 실험 5 | Building-level Modeling | 7.03 | +0.14 |
 | 실험 6 | Outlier Analysis | - | - |
-| **실험 7** | **Ensemble** | **6.73** | **+0.16** |
+| **실험 7** | **Ensemble** | **6.73** | **-0.16** |
 | 실험 8 | LSTM | 9.06 | - |
 
 **최종 성능: SMAPE 6.73**
